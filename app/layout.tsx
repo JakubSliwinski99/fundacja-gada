@@ -13,22 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Fundacja Gada — wydarzenia dla młodych w Krakowie",
-  description:
-    "Fundacja Gada tworzy w Krakowie wydarzenia, które łączą młodych ludzi. Poznaj naszą społeczność, dołącz do spotkań i skontaktuj się z nami.",
-  openGraph: {
-    title: "Fundacja Gada — wydarzenia dla młodych w Krakowie",
-    description:
-      "Tworzymy wydarzenia łączące młodych ludzi w Krakowie. Poznaj społeczność Fundacji Gada i znajdź wydarzenie dla siebie.",
-    locale: "pl_PL",
-    type: "website",
-  },
-  twitter: {
-    card: "summary",
-    title: "Fundacja Gada — wydarzenia dla młodych w Krakowie",
-    description:
-      "Tworzymy wydarzenia łączące młodych ludzi w Krakowie. Poznaj społeczność Fundacji Gada i znajdź wydarzenie dla siebie.",
-  },
+  title: "Test Test",
+  description: "Test Test",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
